@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+notes-backend/node_modules/
+notes-backend/.env
+notes-backend/coverage/
+notes-backend/logs/
+
+*.log
+*.swp
+*.swo
+Thumbs.db

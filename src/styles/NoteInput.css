@@ -1,0 +1,71 @@
+.Note-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.NoteInput:empty:before {
+  content: attr(data-placeholder);
+  color: #aaa;
+  pointer-events: none;
+  display: block;
+}
+.NoteInput {
+  width: 88%;
+  margin-top: 5px;
+  height: 390px;
+  padding: 10px;
+  background-color: #FFDCE5;
+  font-size: 16px;
+  color: #4B2C4E;
+  border-radius: 8px;
+  border-color: #4B2C4E;
+  resize: none; /* Optional: disables dragging to resize */
+  text-align: left;
+  margin: 0 auto;
+}
+
+.note-button {
+  margin-top: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FFB6B9;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #4B2C4E;
+}
+
+.note-button:hover {
+  background-color: #FF9AA2;
+}
+
+.saved-message {
+  color: #4B2C4E;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 7px;
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.note-title-input {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 88%;
+  margin-bottom: 10px;
+  background: transparent;
+  color: #6a1b9a;
+}
+

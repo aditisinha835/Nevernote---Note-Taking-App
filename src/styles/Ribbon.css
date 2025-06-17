@@ -1,0 +1,26 @@
+.ribbon-tab {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background-color: #f7b7b9; 
+  border-bottom: 2px solid #e0b7d5;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.ribbon-btn {
+  background-color: #fff0f5;
+  border: 1px solid #f7b7b9;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #4B2C4E;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ribbon-btn:hover {
+  background-color: #f4c2c2;
+}

@@ -1,0 +1,32 @@
+.MainHeader {
+  background-color: #DCC6E0;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: calc(40px + 2vmin);
+  color: #4B2C4E;
+}
+.typewriter-text {
+  overflow: hidden;
+  border-right: 6px solid #4B2C4E; /* caret */
+  white-space: nowrap;
+  animation: typing 3s steps(18, end) infinite alternate, blink 0.75s step-end infinite;
+  animation-delay: 0s, 2s;
+  width: 0;
+  display: inline-block;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 14ch }  /* adjust based on text length */
+}
+
+/* Blinking caret */
+@keyframes blink {
+  from, to { border-color: transparent }
+  70% { border-color: #4B2C4E }
+}
