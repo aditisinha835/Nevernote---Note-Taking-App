@@ -24,12 +24,10 @@ A simple full-stack notes app built with **React**, **Node.js**, and **MongoDB**
 
 **Frontend**:  
 - React  
-- CSS Modules  
-- React Router  
+- HTML + CSS  
 
 **Backend**:  
-- Node.js  
-- Express  
+- Node.js with Express  
 - MongoDB (via Mongoose)
 
 ---
