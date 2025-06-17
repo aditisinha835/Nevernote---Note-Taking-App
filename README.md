@@ -16,7 +16,6 @@ A simple full-stack notes app built with **React**, **Node.js**, and **MongoDB**
 - Save notes to MongoDB using Express backend
 - View and edit saved notes
 - Responsive and user-friendly UI
-- Frontend and backend structured for scalability
 
 ---
 
